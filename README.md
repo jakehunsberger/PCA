@@ -1,1 +1,1 @@
-PCA class built upon sklearn. Built to handle missing data. Tunes number of principal components hyperparameter through cross-validation
+PCA class built upon sklearn. Built to handle missing data. Tunes number of principal components hyperparameter through *fit_CV()* cross-validation function. Utilizes variance explained R<sup>2</sup> to score each potential hyperparameter value.
